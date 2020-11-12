@@ -1,3 +1,3 @@
-const twc = (options) => {};
+const twc = (options) => ({});
 
 export default twc;

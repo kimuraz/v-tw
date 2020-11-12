@@ -1,9 +1,9 @@
-import tw from './src/directives/tw';
-import twc from './src/directives/twc';
-import twgrid from './src/directives/twgrid';
-import twflex from './src/directives/twflex';
+import tw from './directives/tw';
+import twc from './directives/twc';
+import twgrid from './directives/twgrid';
+import twflex from './directives/twflex';
 
-import defaultOptions from './options';
+import defaultOptions from './options/defaultOptions';
 
 const VTW = {
     install: (Vue, options) => {
