@@ -1,0 +1,23 @@
+{
+  "name": "v-tw",
+  "version": "0.1.0",
+  "description": "TailwindCSS on directives for you Vue application",
+  "main": "dist/vtw.min.js",
+  "module": "dist/vtw.esm.js",
+  "repository": "git@github.com:kimuraz/v-tw.git",
+  "author": "Kimura <j.eduardokimura@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "format": "prettier --write \"{src,__tests__}/**/*.js\"",
+    "format:ci": "prettier \"{src,__tests__}/**/*.js\""
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^6.1.0",
+    "prettier": "^2.1.2",
+    "rollup": "^2.33.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
