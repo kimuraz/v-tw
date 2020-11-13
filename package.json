@@ -1,7 +1,7 @@
 {
-    "name": "v-tw",
+    "name": "v-tw-directives",
     "version": "0.1.0",
-    "description": "TailwindCSS on directives for you Vue application",
+    "description": "TailwindCSS on directives for your Vue application",
     "main": "dist/vtw.min.js",
     "module": "dist/vtw.esm.js",
     "repository": "git@github.com:kimuraz/v-tw.git",
