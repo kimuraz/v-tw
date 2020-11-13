@@ -47,3 +47,7 @@ export default {
 };
 </script>
 ```
+
+### Demo
+
+Check this repo: https://github.com/kimuraz/v-tw-demo
