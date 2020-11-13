@@ -1,5 +1,5 @@
 const tw = (options) => ({
-    bind(el, binding) {
+    bind: (el, binding) => {
         const elTag = el.tagName.toLowerCase();
         const { arg: altTag, modifiers } = binding;
 
