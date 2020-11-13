@@ -20,8 +20,10 @@ and add it as a plugin for your Vue project:
 import VTW from 'v-tw-directive';
 
 Vue.use(VTW, {
-  button: {
-    classes: 'bg-teal-300 hover:bg-teal-400 text-white py-2 px-3',
+  tw: {
+    button: {
+      classes: 'bg-teal-300 hover:bg-teal-400 text-white py-2 px-3',
+    }
   }
 });
 ```
