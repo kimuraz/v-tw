@@ -1,0 +1,23 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12.x 
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Format and lint check
+        run: |
+          yarn install
+          yarn format:ci

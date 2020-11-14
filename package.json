@@ -10,8 +10,9 @@
     "scripts": {
         "build": "rollup -c",
         "format": "prettier --write \"{src,__tests__}/**/*.js\"",
-        "format:ci": "prettier \"{src,__tests__}/**/*.js\"",
-        "test": "jest"
+        "format:ci": "prettier --check \"{src,__tests__}/**/*.js\"",
+        "test": "jest --coverage",
+        "test:ci": "jest --coverage --ci"
     },
     "devDependencies": {
         "@babel/core": "^7.12.3",

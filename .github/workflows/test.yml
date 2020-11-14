@@ -1,0 +1,23 @@
+name: Tests 
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12.x 
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Unit tests 
+        run: |
+          yarn install
+          yarn test:ci
