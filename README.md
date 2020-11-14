@@ -1,5 +1,7 @@
 # V-TW-Directives
 
+![Tests](https://github.com/kimuraz/v-tw/workflows/Tests/badge.svg?branch=main) ![Lint](https://github.com/kimuraz/v-tw/workflows/Lint/badge.svg?branch=main)
+
 This project enables you to create UI components using tailwindcss, VueJS and bare html elements on templates.
 
 ## Installing
