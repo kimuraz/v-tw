@@ -4,6 +4,11 @@
 
 This project enables you to create UI components using tailwindcss, VueJS and bare html elements on templates.
 
+## Motivation
+
+I wanted to use TailwindCSS to make my own UI lib inside of an existing project, but it would make me develop a lot of custom components, then I though that if I could just insert tailwind classes on "native" HTML tags it would awesome. So, if you're developing an UI library using TailwindCSS and Vue, this might be useful for you.
+
+
 ## Installing
 
 To install the package:
