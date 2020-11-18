@@ -26,7 +26,14 @@ Vue.use(VTW, {
     button: {
       classes: 'bg-teal-300 hover:bg-teal-400 text-white py-2 px-3',
     }
-  }
+  },
+  card: {
+      classes: 'bg-grey-100 rounded-sm p-2',
+      modifiers: {
+          green: 'bg-green-200',
+          bordered: 'border-grey-200',
+      },
+  },
 });
 ```
 
@@ -43,6 +50,20 @@ The options passed on the installation are entries for the element tags (`button
 <template>
   <!-- It will apply: 'bg-teal-300 hover:bg-teal-400 text-white py-2 px-3' to the button -->
   <button v-tw>Default button</button>
+</template>
+
+<script>
+export default {
+  name: 'App',
+};
+</script>
+```
+
+For elements no bound to a tag, here known as "custom", use `v-twc`
+
+```
+<template>
+  <div v-twc="card">A custom card</div>
 </template>
 
 <script>
