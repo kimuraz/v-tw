@@ -1,6 +1,6 @@
 {
     "name": "v-tw-directives",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "TailwindCSS on directives for your Vue application",
     "main": "dist/vtw.min.js",
     "module": "dist/vtw.esm.js",

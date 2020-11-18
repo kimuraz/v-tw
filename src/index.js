@@ -14,10 +14,7 @@ const VTW = {
         Vue.VTWInstalled = true;
 
         Vue.directive('tw', tw(options.tw || defaultOptions.tw));
-        // Vue.directive(
-        //     'twc',
-        //     twc(options.containers || defaultOptions.containers),
-        // );
+        Vue.directive('twc', twc(options.twc || defaultOptions.twc));
         // Vue.directve('twgrid', twgrid);
         // Vue.directve('twflex', twflex);
     },
