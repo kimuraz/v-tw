@@ -28,10 +28,10 @@ Vue.use(VTW, {
     }
   },
   card: {
-      classes: 'bg-grey-100 rounded-sm p-2',
+      classes: 'bg-gray-100 rounded-sm p-2',
       modifiers: {
           green: 'bg-green-200',
-          bordered: 'border-grey-200',
+          bordered: 'border border-gray-200',
       },
   },
 });
