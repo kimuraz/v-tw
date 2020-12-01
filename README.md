@@ -26,7 +26,7 @@ $ yarn add v-tw-diretives
 and add it as a plugin for your Vue project:
 
 ```
-import VTW from 'v-tw-directive';
+import VTW from 'v-tw-directives';
 
 Vue.use(VTW, {
   tw: {
